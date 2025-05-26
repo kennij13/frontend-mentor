@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      background-color:hsl(212, 45%, 89%); 
+    }
+
+    .outline {
+      border: 2px;
+      padding: 5px;
+      margin: 100px auto;
+      width: 300px;
+      height: 460px;
+      border-radius: 25px;
+      background-color: hsl(0, 0%, 100%);
+      border-color: hsl(0, 0%, 100%);
+    }
+
+  .inner-outline{
+    border: 2px solid dodgerblue;
+    position: relative;
+    top:10px;
+    left:10px;
+      width: 280px;
+      height: 280px;
+      border-radius:20px;
+
+     
+  }
+
+  .text{
+    position: relative;
+    top:18px;
+    left:20px;
+      width: 250px;
+      height: 100px;
+      color:  hsl(218, 44%, 22%);
+      font-family: Outfit, sans-serif;
+      margin-left: 4px; 
+      text-align: center;
+
+
+  }
+
+  </style>
+</head>
+<body>
+
+ <div class="outline">
+    <img src="images/image-qr-code.png" alt="image"class="inner-outline">
+    <div class="text">
+      <p style="font-weight: 700; font-size: 20px;"> Improve your front-end skills by building projects </p>
+      <p style="font-weight:400; font-size: 15px;"> Scan the QR code to vist Frontend Mentor and take your coding skills to the next level</p>
+
+    </div>
+ </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Kennedi</a>.
+  </div>
+</body>
+</html>
